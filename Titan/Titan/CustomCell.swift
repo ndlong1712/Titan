@@ -9,15 +9,23 @@
 import UIKit
 
 class CustomCell: UITableViewCell {
-
+    
+    @IBOutlet var imgAvatar: UIImageView!
+    @IBOutlet var lbName: UILabel!
+    @IBOutlet var lbCategories: UILabel!
+    @IBOutlet var lbAdress: UILabel!
+    @IBOutlet var imgRate: UIImageView!
+    @IBOutlet var lbCountViews: UILabel!
+    @IBOutlet var lbDistance: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
     

@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BDBOAuth1Manager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>OAuthSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UIScrollView-InfiniteScroll.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -32,12 +47,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>41F40D64EA607C42DA434F6D5522FFF6</key>
+		<key>45935B91DF0442390E2CA6DEEF68AE99</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>45935B91DF0442390E2CA6DEEF68AE99</key>
+		<key>476E959DC0D4B65ADE8A53E9959143B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4878C70B21CA37D7CB8A476BF986741B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90891C9F2F93070B7617ECBE14C516C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE6A4AC269D91F7FF73F67FEEEF0FC11</key>
 		<dict>
 			<key>primary</key>
 			<true/>

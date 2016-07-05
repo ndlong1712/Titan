@@ -1,12 +1,43 @@
 PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BDBOAuth1Manager (1.6.0):
+    - AFNetworking/NSURLConnection (~> 2.6.0)
+    - AFNetworking/NSURLSession (~> 2.6.0)
   - OAuthSwift (0.5.2)
+  - UIScrollView-InfiniteScroll (0.7.3)
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - BDBOAuth1Manager
   - OAuthSwift (~> 0.5.0)
+  - UIScrollView-InfiniteScroll
 
 SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BDBOAuth1Manager: cd5a5872f355ca38180d52ca2dd844f0b0c84797
   OAuthSwift: 1ef042d4362e755e24a78f158d817245641a5d24
+  UIScrollView-InfiniteScroll: b6c7d6d155dca7f9c5dd43813ecffeb301b3d50c
 
-PODFILE CHECKSUM: b2932e977cb91210ccde833dab67afb8d3064c19
+PODFILE CHECKSUM: f33a4b05fc4c9e39e6bf5c73a7872c02df4a2b30
 
 COCOAPODS: 1.0.0

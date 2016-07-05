@@ -20,6 +20,11 @@
 		AC11D0671D236EEF004B29CD /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11D0661D236EEF004B29CD /* LeftMenuViewController.swift */; };
 		AC11D06C1D237C1C004B29CD /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11D06A1D237C1C004B29CD /* CustomCell.swift */; };
 		AC11D06D1D237C1C004B29CD /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC11D06B1D237C1C004B29CD /* CustomCell.xib */; };
+		AC4B1DC21D2A000F00C4BBBD /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B1DC11D2A000F00C4BBBD /* YelpClient.swift */; };
+		AC4B1DC41D2A001800C4BBBD /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4B1DC31D2A001800C4BBBD /* Business.swift */; };
+		AC608E141D265F67009B8973 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC608E131D265F67009B8973 /* CoreLocation.framework */; };
+		AC608E161D265F70009B8973 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC608E151D265F70009B8973 /* MapKit.framework */; };
+		ACFC5E621D2A4DC40091325B /* CustomInfiniteIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5E611D2A4DC40091325B /* CustomInfiniteIndicator.swift */; };
 		D7A4209468D72897FA37EE24 /* Pods_TitanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3133829E82A9B0724E8A4401 /* Pods_TitanTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +70,12 @@
 		AC11D0661D236EEF004B29CD /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
 		AC11D06A1D237C1C004B29CD /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		AC11D06B1D237C1C004B29CD /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		AC4B1DC11D2A000F00C4BBBD /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		AC4B1DC31D2A001800C4BBBD /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		AC4B1DC51D2A039700C4BBBD /* Titan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Titan-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC608E131D265F67009B8973 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AC608E151D265F70009B8973 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ACFC5E611D2A4DC40091325B /* CustomInfiniteIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInfiniteIndicator.swift; sourceTree = "<group>"; };
 		BE81F6E01C64E558A5BB8C38 /* Pods-Titan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Titan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Titan/Pods-Titan.debug.xcconfig"; sourceTree = "<group>"; };
 		F55FD6F32B84908DDDD7FB06 /* Pods-TitanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TitanTests/Pods-TitanTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC608E161D265F70009B8973 /* MapKit.framework in Frameworks */,
+				AC608E141D265F67009B8973 /* CoreLocation.framework in Frameworks */,
 				8B91F190CCE4ABCECF1C0733 /* Pods_Titan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +113,8 @@
 		50CB3246FEF502829EDBAA09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC608E151D265F70009B8973 /* MapKit.framework */,
+				AC608E131D265F67009B8973 /* CoreLocation.framework */,
 				3B8EC0DF7FEA8EB038E2BE64 /* Pods_Titan.framework */,
 				3133829E82A9B0724E8A4401 /* Pods_TitanTests.framework */,
 				7575218F1FA27D53F8F242EA /* Pods_TitanUITests.framework */,
@@ -145,6 +160,7 @@
 		AC0E2CAC1D225C7800EBC3B3 /* Titan */ = {
 			isa = PBXGroup;
 			children = (
+				AC4B1DC01D2A000400C4BBBD /* API */,
 				AC11D0631D236E7C004B29CD /* Libraries */,
 				AC11D0681D237BEE004B29CD /* CustomView */,
 				AC11D05E1D236AF1004B29CD /* ViewController */,
@@ -156,6 +172,7 @@
 				AC0E2CB41D225C7800EBC3B3 /* Assets.xcassets */,
 				AC0E2CB61D225C7800EBC3B3 /* LaunchScreen.storyboard */,
 				AC0E2CB91D225C7800EBC3B3 /* Info.plist */,
+				AC4B1DC51D2A039700C4BBBD /* Titan-Bridging-Header.h */,
 			);
 			path = Titan;
 			sourceTree = "<group>";
@@ -181,6 +198,7 @@
 		AC11D0581D236A57004B29CD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AC4B1DC31D2A001800C4BBBD /* Business.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -235,6 +253,7 @@
 		AC11D0631D236E7C004B29CD /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				ACFC5E611D2A4DC40091325B /* CustomInfiniteIndicator.swift */,
 				AC11D0641D236E97004B29CD /* SlideMenuController.swift */,
 			);
 			name = Libraries;
@@ -255,6 +274,14 @@
 				AC11D06B1D237C1C004B29CD /* CustomCell.xib */,
 			);
 			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		AC4B1DC01D2A000400C4BBBD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B1DC11D2A000F00C4BBBD /* YelpClient.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,9 +548,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC0E2CAE1D225C7800EBC3B3 /* AppDelegate.swift in Sources */,
+				AC4B1DC41D2A001800C4BBBD /* Business.swift in Sources */,
 				AC11D0651D236E97004B29CD /* SlideMenuController.swift in Sources */,
 				AC11D06C1D237C1C004B29CD /* CustomCell.swift in Sources */,
 				AC11D0601D236B51004B29CD /* HomeViewController.swift in Sources */,
+				AC4B1DC21D2A000F00C4BBBD /* YelpClient.swift in Sources */,
+				ACFC5E621D2A4DC40091325B /* CustomInfiniteIndicator.swift in Sources */,
 				AC11D0671D236EEF004B29CD /* LeftMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,10 +699,13 @@
 			baseConfigurationReference = BE81F6E01C64E558A5BB8C38 /* Pods-Titan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Titan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.titan.Titan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Titan/Titan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -681,10 +714,12 @@
 			baseConfigurationReference = 35B2678512D874221F0E3365 /* Pods-Titan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Titan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.titan.Titan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Titan/Titan-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MaxNumberOfPixels</key>
+	<dict>
+		<key>iPhone 5s</key>
+		<real>60000000</real>
+		<key>iPhone 6 Plus</key>
+		<real>60000000</real>
+		<key>iPhone 6s</key>
+		<real>60000000</real>
+		<key>iPad Mini</key>
+		<real>60000000</real>
+		<key>iPad Mini 2</key>
+		<real>60000000</real>
+		<key>iPad Mini 3</key>
+		<real>60000000</real>
+		<key>iPad Mini 4</key>
+		<real>60000000</real>
+		<key>iPad Pro (9.7-inch)</key>
+		<real>60000000</real>
+		<key>iPad Pro (12.9-inch)</key>
+		<real>60000000</real>
+	</dict>
+	<key>MaxImageSize</key>
+	<integer>80</integer>
+</dict>
+</plist>

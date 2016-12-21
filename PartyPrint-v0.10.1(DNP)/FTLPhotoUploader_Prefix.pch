@@ -1,0 +1,61 @@
+//
+// Prefix header for all source files of the 'FTLPhotoUploader' target in the 'FTLPhotoUploader' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+#import "FTLErrorCodes.h"
+
+
+#define kSTRINGS_CAPTION @"captions"	// captionsファイル名
+#define kSTRINGS_MESSAGE @"messages"	// messagesファイル名
+
+#define FTLErrorDomain	@"FTLErrorDomain"
+
+#define HTTP_STATUS_CODE_OK							200
+
+#define HTTP_REQUEST_TIMEOUT_INTERVAL				10.0f					// HTTPリクエストタイムアウト - WiFiで近距離通信しかありえないため、すぐレスポンスが欲しい
+#define HTTP_FILEUPLOAD_REQUEST_TIMEOUT_INTERVAL	10.0f					// ファイルアップロードリクエストタイムアウト - WiFiで近距離通信しかありえないため、すぐレスポンスが欲しい
+#define HTTP_CONNECT_ERROR_WAIT_SECOND              1                       //通信でエラーが発生した場合にリトライ待ち時間(秒)
+#define NUMBER_OF_SELECT_IMAGE_MAX					1
+
+#define COMMON_IV_KEY								@"O3uIaZx8+45Mk!Cr"		// アプリ共通復号用の初期化ベクトル(IV)
+
+#define USERPREFERANCE_DATETIMEFORMAT @"yyyy-MM-dd HH:mm:ss"
+#define USERPREFERANCE_DEFAULT_START_DATE_TIME @"2000-01-01 00:00:00 +0000"
+#define USERPREFERANCE_DEFAULT_END_DATE_TIME @"2100-12-31 23:59:59 +0000"
+#define USERPREFERANCE_MIN_IMAGE_SENDING 1
+#define USERPREFERANCE_MAX_IMAGE_SENDING 1
+#define USERPREFERANCE_DEFAULT_IMAGE_SENDING 1
+
+#define STARTUP_URL_REQUEST_TIMEOUT	3				// スタートアップ画面に表示するURLのリクエストタイムアウト（秒）
+#define STARTUP_DEFAULT_HTML_NAME @"default"		// ↑が利用できない場合に表示するデフォルトHTMLのファイル名
+#define STARTUP_DEFAULT_HTML_EXT @"html"			// ↑の拡張子
+
+#define STARTUPFILE_URL @"http://%@:8080/uploadimage/specialmessage/%@.html" //スタートアップで使用するURL
+#define HELPFILE_URL @"http://%@:8080/uploadimage/help/%@.html" //ヘルプで使用するURL
+#define AGREEMENTFILE_URL @"http://%@:8080/uploadimage/agreement/%@.html" //スタートアップとヘルプで共通で使用するURL
+
+
+
+// ===== デバッグ用 =====
+#define FTL_DEBUG_URL_AUTHMODE			@"http://10.8.160.92:8080/uploadimage/authmode"
+//#define FTL_DEBUG_URL_UPLOAD			@"http://10.8.160.92:8080/uploadimage/upload"
+#define FTL_DEBUG_URL_UPLOAD			@"http://10.8.160.92/FileUploader/upload"
+#define FTL_DEBUG_URL_AUTH				@"http://10.8.160.92:8080/uploadimage/authotp"
+#define FTL_DEBUG_URL_ISSUE				@"http://10.8.160.92:8080/uploadimage/issueotp"
+
+//#define DEBUG 1
+
+#if DEBUG || (DEVELOP_SERVER || TEST_SERVER)
+#define MGLog(args...)		NSLog( @"%@", [NSString stringWithFormat: args])
+#define LogMethod()			NSLog(@"%s logged method call: -[%@ %s] (line %d)", _cmd, self, _cmd, __LINE__)
+#else
+#define MGLog(args...)		// do nothing.
+#define LogMethod()
+#endif  // DEBUG
+
+// ====================

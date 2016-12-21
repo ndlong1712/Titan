@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  PartyPrint
+
+  Created by imaging on 2016/12/13.
+  Copyright © 2016年 DNP. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "fare una foto";
+"NSPhotoLibraryUsageDescription" = "per selezionare le foto da album";

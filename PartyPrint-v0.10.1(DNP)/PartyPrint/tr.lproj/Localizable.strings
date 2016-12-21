@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  PartyPrint
+
+  Created by TrongNK on 10/22/16.
+  Copyright © 2016 DNP. All rights reserved.
+*/
+"NOTCONFIGURED"="(Yok)";
+"FotolusioSystemConnection"="Wi-Fi:%@";
+"SendImages"="Yazdır";
+"MenuTakePhoto"="Resim çek";
+"MenuSelectAlbum"="Var olanı seç";
+"MenuShowHelp"="Yardım";
+"AGREE"="KABUL";
+"NotAgree"="KABUL ETME";
+"YES"="EVET";
+"NO"="HAYIR";
+"OK"="OK";
+"DONE"="Bitti";
+"CANCEL"="İptal";
+"Menu"="Geri";
+"SelectedImageExists"="Seçilen: %d";
+"RETRY"="yeniden dene";
+"VERSION"="Ver. %@";
+"Continue"="Devam etmek";
+"AgreementViewTitle"="Hizmet şartları";
+"AppRecoverMessage"="Lütfen bekleyin ...";
+
+//information
+"Information" = "Bilgi";
+"OpenSource" = "Açık kaynak";
+
+// Format
+"SendingPeriodDateFormat"="M/d/yyyy";
+"SendingPeriodTimeFormat"="H:mm";
+
+"Settings" = "Ayarlar";
+
+// Messages
+
+
+"MaxImageSelectWarning"="En çok %d resim seçebilirsiniz.";
+"ImageCreationDateUnknown"="Resim yazdırılamıyor.  Resimden tarih bilgisi alınamıyor.";
+"ImageSendingPeriodError"="Resim yazdırılamıyor.  Lütfen %@ ile %@ arasında çekilen resimleri seçin.";
+"Uploading"="\n\n\n\nAktarılıyor…";
+"PhotolusioDeviceNotReachable"="Sistem servere bağlanamıyor.  Bu etkinlik için lütfen WiFi Hotspot'a bağlanın.";
+"ConnectionError"="Sistem servere bağlanmakta sorun yaşıyor.  Lütfen tekrar deneyin.  Eğer sorun devam ederse lütfen çıkın ve WiFi bağlantınızı yeniden kurun.(Hata Kodu:%04d)";
+"ImageSavedError"="Resim kaydedilemed.(Hata Kodu:%04d)";
+"ImageSendDone"="Teşekkürler.\n\nFotoğrafınız\nservere gönderildi.\n\nŞimdi başka bir\nfotoğraf gönderebilirsiniz";
+
+"PhotoAccessDisable"="Bu uygulama fotoğraflarınıza erişmeyi gerektirir.\nAyarlar>Gizlilik > Fotoğraflar'agidin ve Party Print için erişimi açın.";
+"LessMemoryWarning"="Bu cihazın hafızası daha fazla resim seçmek için yeterli değil. Daha başka resimleri seçmek için lütfen seçilmiş olanları yazdırın.";
+
+"NetworkErrorMessage"="Uygulama sunucuya bağlanamıyor. Uygulama sunucuya resim gönderebilmek için Party Print kablosuza bağlı olmalıdır.";
+"AVCaptureAccessDisable"="Bu uygulama Kameraya Erişmek istiyor.\nAyarlar > Gizlilik > Kamera ve Party Print için erişimi açın.";
+"PhotoAndAVCaptureAccessDisable"="Bu uygulama Kameraya Erişmek istiyor.\nAyarlar > Gizlilik > Kamera ve Party Print için erişimi açın.\n\n------------------------------\n\nBu uygulama fotoğraflarınıza erişmeyi gerektirir.\nAyarlar>Gizlilik > Fotoğraflar'agidin ve Party Print için erişimi açın.";
+"PrivacyPolicyMessage"="Telif Hakları Kanunu telif haklı fotoğrafların fotoğrafçının izni olmadan çoğaltılmasını yasaklar.  Sistemin yasal şekilde kullanıması sizin sorumluluğunuzdadır.";
+"PrivacyPolicyDescription"="Dikkatle kullanım şartlarını ve gizlilik politikasını okuyunuz. Eğer kabul ederseniz, onay kutusunu ve devam edin. Değilse, bu uygulamayı kapatmak için cihazınızın dönüş tuşuna basınız.";
+"PrivacyPolicyAgreeMessage"="Yukarıdaki şartları / Gizlilik Politikası katılıyorum.";
+"MaxImageSizeWarning" = "Uygulama %d MB'den büyük görüntü’den baskı yapamaz. Başka görüntüleri seçiniz.";
+
+"CannotDownloadPhotoTitle" = "Fotoğraf İndirilemiyor";
+"CannotDownloadPhotoMessage" = "Bu fotoğrafı iCloud Fotoğraf Arşivi'nizden indirmeyle ilgili bir hata oluştu. Lütfen daha sonra yeniden deneyin.";
+

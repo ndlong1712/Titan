@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  PartyPrint
+
+  Created by TrongNK on 10/22/16.
+  Copyright © 2016 DNP. All rights reserved.
+*/
+"NOTCONFIGURED"="(None)";
+"FotolusioSystemConnection"="Ziel:%@";
+"SendImages"="Senden";
+"MenuTakePhoto"="Aufnahme";
+"MenuSelectAlbum"="Auswahl";
+"MenuShowHelp"="Hilfe";
+"AGREE"="Ich stimme zu";
+"NotAgree"="ich stimme nicht zu";
+"YES"="JA";
+"NO"="NEIN";
+"OK"="OK";
+"DONE"="Erledigt";
+"CANCEL"="Abbrechen";
+"Menu"="Zurück";
+"SelectedImageExists"="Auswahl:%d";
+"MenuSetting"="Settings";
+"SettingViewTitle"="Settings";
+"SettingViewCellSendingPeriodStartDateTime"="Start date time";
+"SettingViewCellSendingPeriodEndDateTime"="End date time";
+"SettingViewCellMaxImageSending"="Upper limit of transmission";
+"SelectedImageNone"="Select photo to upload.";
+"RESET"="Reset";
+"ISCONFIGURED"="Established.";
+"RETRY"="Retry";
+"VERSION"="Ver. %@";
+"Continue"="Fortsetzen";
+"AgreementViewTitle"="Nuztungsbedingungen";
+"AppRecoverMessage"="Bitte warten…";
+
+//information
+"Information" = "Information";
+"OpenSource" = "Open Source";
+
+// Format
+"SendingPeriodDateFormat"="yyyy/M/d";
+"SendingPeriodTimeFormat"="H:mm";
+
+"Settings" = "Einstellungen";
+
+// Messages
+
+
+"PhotoAccessDisable"="Diese Anwendung erfordert Zugriff auf Ihre Fotos.\n\nGehen Sie zu Einstellungen> Datenschutz> Fotos> Fotos für  Party Print verfügbar machen. ";
+"MaxImageSelectWarning"="Sie können bis zu %d Bilder ausxwählen.\nBitte senden Sie zuerst die selektierten Bilder, bevor Sie mehr Bilder auswählen.";
+"ImageCreationDateUnknown"="Das Bild kann nicht gedruckt werden. Die Datumsinformationen können nicht gelesen werden.";
+"ImageSendingPeriodError"="Die Bilder können nicht gedruckt werden. Bitte wählen Sie Bilder aus, die im folgenden Zeitraum aufgenommen wurden:  %@ to %@.";
+"Uploading"="\n\n\n\nBildübertragung läuft…";
+"PhotolusioDeviceNotReachable"="Das Wi-Fi-Ziel wurde nicht in den Einstellungen konfiguriert. \nBitte wählen Sie das entsprechende Ziel aus.";
+"ConnectionError"="Die Verbindung zwischen Server und Gerät ist instabil. Bitte versuchen Sie es erneut. Sollte sich das Problem fortsetzen, stellen Sie bitte die Wi-Fi-Einstellung ab und rekonfigurieren Sie die Verbindung.(Error Code: %04d)";
+"ImageSavedError"="Das Specihern des Bilds schlug fehl (Error Code: %04d)";
+"ImageSendDone"="Vielen Dank!\nIhr Bild wurde zum Druck an den Server gesendet.\nSie können nun ein neues Bild senden.";
+"LessMemoryWarning"="Ihr Gerät hat keinen Speicher mehr. Bitte schließen Sie andere Anwendungen und versuchen Sie es erneut.";
+
+"NetworkErrorMessage"="App kann sich nicht mit dem Server verbinden. Die App muss mit dem drahtlosen Netzwerk Party Print verbunden sein.";
+"AVCaptureAccessDisable"="Diese Anwendung möchte auf Ihre Kamera zugreifen.\n\nGehen Sie zu Einstellungen> Datenschutz> Kamera> Kamera für Party Print verfügbar machen.";
+"PhotoAndAVCaptureAccessDisable"="Diese Anwendung möchte auf Ihre Kamera zugreifen.\nGehen Sie zu Einstellungen> Datenschutz> Kamera> Kamera für Party Print verfügbar machen.\n\n------------------------------\n\nDiese Anwendung erfordert Zugriff auf Ihre Fotos.\nGehen Sie zu Einstellungen> Datenschutz> Fotos> Fotos für  Party Print verfügbar machen.";
+"PrivacyPolicyMessage"="Unerwartete Datenschäden können währen der Nutzung auftreten.\n\nDa wir keine Verantwortung für einen solchen Datenverlust oder -schaden übernemen, bitten wir Sie, vor dem Nutzen dieses Service stets einen Backup zu tätigen.\n\nCopyright-Gesetze untersagen die Vervielfältigung von geschützten Bildern ohne Zustimmung durch den Fotografen. Es ist Ihre Verantwortung, diesen Servicen gesetzeskonform zu nutzen.";
+"PrivacyPolicyDescription"="Bitte lesen Sie die Nutzungsbedingungen\nund Datenschutzbestimmungen sorgfältig. Wenn Sie einverstanden sind, klicken Sie bitte auf weiter. Falls nicht, drücken Sie die Enter-Taste des Geräts, um diese Anwendung zu schließen";
+"PrivacyPolicyAgreeMessage"="Ich akzeptiere die oben genannten\nAGB's / Datenschutzbestimmungen.";
+"MaxImageSizeWarning" = "Das Programm kann Bilder mit mehr als %d MB nicht drucken. Bitte wählen Sie andere Bilder aus";
+
+"CannotDownloadPhotoTitle" = "Laden des Fotos fehlgeschlagen";
+"CannotDownloadPhotoMessage" = "Beim Laden dieses Fotos von lhrer iCloud-Fotomediathek ist ein Fehler aufgetreten. Versuchen Sie es später erneut.";
+
+

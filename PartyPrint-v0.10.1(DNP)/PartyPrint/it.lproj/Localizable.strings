@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  PartyPrint
+
+  Created by TrongNK on 10/22/16.
+  Copyright © 2016 DNP. All rights reserved.
+*/
+"NOTCONFIGURED"="(Nessuno)";
+"FotolusioSystemConnection"="Destinazione:%@";
+"SendImages"="Invia";
+"MenuTakePhoto"="Acquisisci foto";
+"MenuSelectAlbum"="Seleziona esistente";
+"MenuShowHelp"="Aiuto";
+"AGREE"="ACCETTO";
+"NotAgree"="NON ACCETTO";
+"YES"="SÌ";
+"NO"="NO";
+"OK"="OK";
+"DONE"="Fine";
+"CANCEL"="Annulla";
+"Menu"="Indietro";
+"SelectedImageExists"="Selezionato: %d";
+"RETRY"="Riprova";
+"VERSION"="Ver. %@";
+"Continue"="Continua";
+"AgreementViewTitle"="Condizioni per l'utilizzo del servizio";
+"AppRecoverMessage"="Prego attendere…";
+
+//information
+"Information" = "Informazione";
+"OpenSource" = "Sorgente aperta";
+
+// Format
+"SendingPeriodDateFormat"="yyyy/M/d";
+"SendingPeriodTimeFormat"="H:mm";
+
+"Settings" = "Impostazioni";
+
+// Messages
+
+
+"MaxImageSelectWarning"="È possibile selezionare fino a %d immagini. Inviare le immagini selezionate prima di selezionarne altre.";
+"ImageCreationDateUnknown"="Impossibile stampare l'immagine.\nImpossibile ottenere informazioni relative alla data dall'immagine.";
+"ImageSendingPeriodError"="Impossibile stampare l'immagine. Selezionare nuovamente l'immagine acquisita da %@ a %@.";
+"Uploading"="\n\n\n\nTrasferimento delle immagini in corso...";
+"PhotolusioDeviceNotReachable"="Destinazione Wi-Fi non configurata nelle Impostazioni.\nConfigurare le impostazioni della rete Wi-Fi specificata. ";
+"ConnectionError"="La connessione tra server e dispositivo non è stabile. Provare di nuovo. Se il problema persiste, disattivare le impostazioni Wi-Fi e configurare nuovamente la connessione. (Codice errore: %04d)";
+"ImageSavedError"="Errore durante il salvataggio dell'immagine. (Codice errore: %04d)";
+"ImageSendDone"="Grazie.\n\nLa foto è stata\ninviata al server.\n\nOra è possibile inviare\nun'altra foto.";
+"LessMemoryWarning"="Il dispositivo ha esaurito la memoria. Chiudere le altre applicazioni aperte e riprovare.";
+
+"PhotoAccessDisable"="Questa applicazione richiede l’accesso alle tue foto.\nVai a Impostazioni > Privacy > Foto e abilita l’accesso per Party Print.";
+"NetworkErrorMessage"="L'applicazione non si collega al server. L'applicazione deve essere collegata a Party Print tramite rete wireless per poter inviare le immagini al server.";
+"AVCaptureAccessDisable"="Questa applicazione richiede l'accesso alla tua fotocamera.\nVai a Impostazioni > Privacy > Fotocamera e abilita l’accesso per Party Print.";
+"PhotoAndAVCaptureAccessDisable"="Questa applicazione richiede l'accesso alla tua fotocamera.\nVai a Impostazioni > Privacy > Fotocamera e abilita l’accesso per Party Print.\n\n------------------------------\n\nQuesta applicazione richiede l’accesso alle tue foto.\nVai a Impostazioni > Privacy > Foto e abilita l’accesso per Party Print.";
+"PrivacyPolicyMessage"="Durante l'operazione potrebbero verificarsi perdita di dati o danni non previsti.\n\nNon potendo garantire l'assenza di tali perdite o danni, si consiglia di archiviare i propri dati, effettuandone il backup prima di utilizzare il sistema.\n\nLe normative sul copyright proibiscono la duplicazione di foto protette da copyright senza il permesso del fotografo. È responsabilità dell'utente assicurarsi di utilizzare il sistema in modo legale.\n\n09/01/2012";
+"PrivacyPolicyDescription"="Si prega di leggere attentamente le condizioni di utilizzo e di rispetto della privacy. Se si accettano, si prega di barrare la casella e proseguire. Se non si accettano, si prega di cliccare sul pulsante “Indietro/ Return” del vostro dispositivo e quindi chiudere l’applicazione.";
+"PrivacyPolicyAgreeMessage"="Accetto le condizioni di utilizzo e Privacy sopra indicate";
+"MaxImageSizeWarning" = "L'applicazione (il software) non può stampare un immagine più grande di %d Mb. Richiediamo di selezionare altre immagini.";
+
+"CannotDownloadPhotoTitle" = "Impossibile scaricare foto";
+"CannotDownloadPhotoMessage" = "Si è verificato un errore durante il download della foto dalla tua libreria foto di iCloud. Riprova.";
+

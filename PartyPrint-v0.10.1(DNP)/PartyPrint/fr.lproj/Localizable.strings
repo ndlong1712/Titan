@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  PartyPrint
+
+  Created by TrongNK on 10/22/16.
+  Copyright © 2016 DNP. All rights reserved.
+*/
+"NOTCONFIGURED"="(Aucun)";
+"FotolusioSystemConnection"="Destination : %@";
+"SendImages"="Envoyer";
+"MenuTakePhoto"="Prendre Photo";
+"MenuSelectAlbum"="Choix existant";
+"MenuShowHelp"="Aide";
+"AGREE"="ACCEPTER";
+"NotAgree"="NE PAS ACCEPTER";
+"YES"="OUI";
+"NO"="NON";
+"OK"="OK";
+"DONE"="Terminé";
+"CANCEL"="Annuler";
+"Menu"="Retour";
+"SelectedImageExists"="Sélectionné : %d";
+"MenuSetting"="";
+"SettingViewTitle"="";
+"SettingViewCellSendingPeriodStartDateTime"="";
+"SettingViewCellSendingPeriodEndDateTime"="";
+"SettingViewCellMaxImageSending"="";
+"SelectedImageNone"="";
+"RESET"="";
+"ISCONFIGURED"="";
+"RETRY"="Retry";
+"VERSION"="Ver. %@";
+"Continue"="Continuez";
+"AgreementViewTitle"="Conditions d'utilisation";
+"AppRecoverMessage"="Merci d'attendre …";
+
+//information
+"Information" = "Information";
+"OpenSource" = "Open Source";
+
+// Format
+"SendingPeriodDateFormat"="yyyy/M/d";
+"SendingPeriodTimeFormat"="H:mm";
+
+"Settings" = "Réglages";
+
+// Messages
+
+"PhotoAccessDisable"="Cette application nécessite l'accès à vos photos.\n\nAller dans Réglages > Confidentialité > Photos > Rendre accessible les photos pour Party Print";
+"MaxImageSelectWarning"="Vous pouvez sélectionner jusqu'à %d images. Veuillez transférer les images sélectionnées avant de sélectionner de nouvelles images.";
+"ImageCreationDateUnknown"="Impossible d'imprimer l'image.\nImpossible d'obtenir les données correspondant à la date de l'image.";
+"ImageSendingPeriodError"="Impossible d'imprimer l'image. Veuillez resélectionner l'image prise du %@ au %@.";
+"Uploading"="\n\n\n\nTransfert de la ou des images en cours…";
+"PhotolusioDeviceNotReachable"="La destination Wi-Fi n'a pas été configurée dans les Paramètres.\nVeuillez configurer les paramètres réseau Wi-Fi spécifiés. ";
+"ConnectionError"="La liaison entre le serveur et l'appareil n'est pas stable. Veuillez essayer à nouveau. Si le problème se répète, désactivez les paramètres Wi-Fi et répétez la configuration. (Code d'erreur : %04d)";
+"ImageSavedError"="Erreur d'enregistrement de l'image.(Code d'erreur : %04d)";
+"ImageSendDone"="Merci.\n\nVotre photo a été \ntransmise au serveur.\n\nVous pouvez maintenant \nenvoyer une nouvelle photo";
+"LessMemoryWarning"="Votre appareil est à court de mémoire. Merci de fermer les applications ouvertes et essayer à nouveau.";
+
+"NetworkErrorMessage"="L'application ne peut pas se connecter au serveur. L’application doit être connectée au réseau sans fil Party Print pour pouvoir envoyer les photos au serveur.";
+"AVCaptureAccessDisable"="Cette application souhaite accéder à  l'appareil photo.\n\nAllez dans Réglages > Confidentialité > Appareil photo> Rendre accessible l'appareil photo pour Party Print";
+"PhotoAndAVCaptureAccessDisable"="Cette application souhaite accéder à  l'appareil photo.\nAllez dans Réglages > Confidentialité > Appareil photo> Rendre accessible l'appareil photo pour Party Print\n\n------------------------------\n\nCette application nécessite l'accès à vos photos.\nAller dans Réglages > Confidentialité > Photos > Rendre accessible les photos pour Party Print";
+"PrivacyPolicyMessage"="Il existe un risque de détérioration/perte de données pendant l'utilisation.\n\nNe pouvant pas assumer la responsabilité de ce genre de détérioration/perte, nous vous conseillons de sauvegarder ces données avant d'utiliser le système.\n\nLa législation sur la propriété intellectuelle interdit toute duplication des photos soumises au droit d'auteur sans l'autorisation du photographe auquel elles appartiennent. Vous devez donc vous assurer que vous utilisez en permanence ce système dans le cadre stricte de la loi.\n\n09/01/2012";
+"PrivacyPolicyDescription"="Merci de lire attentivement les termes d'utilisation et la politique de confidentialité. Si vous acceptez, merci de cocher la case. Si vous refusez, merci de presser le bouton de retour sur votre Smartphone pour sortir de l'application.";
+"PrivacyPolicyAgreeMessage"="Je suis d'accord avec les Termes/Politique de confidentialité ci-dessus.";
+"MaxImageSizeWarning" = "L'application ne peur pas imprimer une image supérieure à %d MB. Merci de sélectionner d'autre images.";
+
+"CannotDownloadPhotoTitle" = "Impossible de télécharger la photo";
+"CannotDownloadPhotoMessage" = "Une erreur s'est produite lors du téléchargement de cette photo depuis vorte photothéque iCloud. Réessayez plus tard.";
+

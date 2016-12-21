@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  PartyPrint
+
+  Created by TrongNK on 10/22/16.
+  Copyright © 2016 DNP. All rights reserved.
+*/
+
+"NOTCONFIGURED"="(None)";
+"FotolusioSystemConnection"="Wi-Fi:%@";
+"SendImages"="Print";
+"SelectedImageExists"="Selected: %d";
+"MenuTakePhoto"="Take Photo";
+"MenuSelectAlbum"="Choose Existing";
+"MenuShowHelp"="Help";
+"AGREE"="AGREE";
+"NotAgree"="DO NOT AGREE";
+"YES"="YES";
+"NO"="NO";
+"OK"="OK";
+"DONE"="Done";
+"CANCEL"="Cancel";
+"Menu"="Back";
+"AppRecoverMessage"="Please wait ...";
+
+"RESET"="Reset";
+"ISCONFIGURED"="Established.";
+"RETRY"="Retry";
+"VERSION"="Ver. %@";
+"Continue"="Continue";
+"AgreementViewTitle"="Terms";
+
+//information
+"Information" = "Information";
+"OpenSource" = "Open Source";
+
+// Format
+"SendingPeriodDateFormat"="MMMM d, yyyy";
+"SendingPeriodTimeFormat"="h:mm a";
+"Settings" = "Settings";
+
+// Messages
+"PhotoAccessDisable" = "This application requires access to your photos.\n\nGo to Settings > Privacy > Photos and enable access for Party Print..";
+"MaxImageSelectWarning" = "You may select a maximum of %d images to send to the printer.?Choose OK from this screen to reduce the number of images you have selected.";
+"ImageCreationDateUnknown" = "The selected image can not be printed.\nThe application cannot retrieve date information from image.";
+"ImageSendingPeriodError" = "The image can not be printed.  Please select images taken from %@ to %@.";
+"Uploading" = "\n\n\n\nImage(s) are being transferred...";
+"PhotolusioDeviceNotReachable" = "Party Print cannot connect to its server.  Please connect to the required WiFi Hotspot.";
+"ConnectionError" = "Party Print is having trouble communicating with the server.  Please try again.  If the problem persists please disconnect and reconnect your WiFi connection. (Error Code:%04d)";
+"ImageSavedError" = "Failed to save the image.(Error Code:%04d)";
+"ImageSendDone" = "Thank you.\n\nYour photo has been\nsent to the server.\n\nYou can now submit\nanother photo";
+"LessMemoryWarning"="Your device has run out of memory.  Please close other open applications and try again.";
+
+"NetworkErrorMessage" = "The application cannot connect to the server. Please connect to the Wi-Fi network for this event.";
+"AVCaptureAccessDisable" = "This application requires access to your Camera.\n\nGo to Settings > Privacy > Camera and enable access for Party Print..";
+"PhotoAndAVCaptureAccessDisable" = "This application requires access to your Camera.\nGo to Settings > Privacy > Camera and enable access for Party Print..\n\n------------------------------\n\nThis application requires access to your photos.\nGo to Settings > Privacy > Photos and enable access for Party Print..";
+"PrivacyPolicyMessage" = "Copyright law prohibits the duplication of copyrighted photos without permission of the photographer.  It is your responsibility to ensure that you use the system in a legal manner.";
+"PrivacyPolicyDescription" = "Please read terms of use carefully. If you agree, please check the box and continue. If not, please press the home button of your device to close this application";
+"PrivacyPolicyAgreeMessage" = "I agree with the above Terms.";
+"MaxImageSizeWarning" = "The application cannot print an image larger than %d MB. Please select other images.";
+
+"CannotDownloadPhotoTitle" = "Cannot Download Photo";
+"CannotDownloadPhotoMessage" = "There was an error downloading this photo from your iCloud Photo Library. \nPlease try again later.";
+

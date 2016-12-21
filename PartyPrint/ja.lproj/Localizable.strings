@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  PartyPrint
+
+  Created by TrongNK on 10/22/16.
+  Copyright © 2016 DNP. All rights reserved.
+*/
+"NOTCONFIGURED"="(未設定)";
+"FotolusioSystemConnection"="送信先：%@";
+"SendImages"="送信";
+"MenuTakePhoto"="写真撮影";
+"MenuSelectAlbum"="アルバム選択";
+"MenuShowHelp"="ヘルプ";
+"AGREE"="同意する";
+"NotAgree"="同意しない";
+"YES"="はい";
+"NO"="いいえ";
+"OK"="OK";
+"DONE"="完了";
+"CANCEL"="キャンセル";
+"Menu"="戻る";
+"SelectedImageExists"="選択数 : %d";
+"MenuSetting"="設定";
+"SettingViewTitle"="設定";
+"SettingViewCellSendingPeriodStartDateTime"="開始日";
+"SettingViewCellSendingPeriodEndDateTime"="終了日";
+"SettingViewCellMaxImageSending"="送信可能枚数";
+"SelectedImageNone"="送信する画像を選択してください。";
+"RESET"="リセット";
+"ISCONFIGURED"="設定済";
+"RETRY"="リトライ";
+"VERSION"="Ver. %@";
+"Continue"="進む";
+"AgreementViewTitle"="プライバシーポリシー";
+"AppRecoverMessage"="しばらくお待ちください。";
+
+//information
+"Information" = "アプリ情報";
+"OpenSource" = "オープンソース";
+
+// Format
+"SendingPeriodDateFormat"="yyyy年M月d日";
+"SendingPeriodTimeFormat"="H:mm";
+
+"Settings" = "設定";
+
+// Messages
+
+"PhotoAccessDisable"="写真の利用が許可されていないため、アプリケーションを利用できません。\n\nプライバシー設定から写真へのアクセスを許可してください。";
+"MaxImageSelectWarning"="一度に選択できる画像数は%dまでです。画像を一旦送信してから再度選択してください。";
+"ImageCreationDateUnknown"="この画像は印刷できません。\n画像ファイルの生成日時を取得できませんでした。";
+"ImageSendingPeriodError"="この画像は印刷できません。\n%@～%@に撮影された画像を選択してください。";
+"Uploading"="\n\n\n\n画像を送信しています...";
+"PhotolusioDeviceNotReachable"="送信先ネットワークが設定されていません。Wi-Fi設定にて指定のネットワークを設定して下さい。";
+"ConnectionError"="サーバとの通信が不安定になっています。何度かお試しいただいて解決しない場合は、Wi-Fiの設定を一旦オフにし、再度設定しなおすことで解決する可能性があります。(Error Code:%04d)";
+"ImageSavedError"="画像の保存に失敗しました。(Error Code:%04d)";
+"ImageSendDone"="ご利用ありがとうございます。\n\nサーバに画像が送られました。\n別の画像を送信できます。";
+"LessMemoryWarning"="画像を選択するための一時メモリ領域が不足しています。\nメモリ領域確保のため、他のアプリを終了し再度選択するか、画像を一旦送信して下さい";
+
+"NetworkErrorMessage"="ネットワークへの接続に失敗しました。このイベントの無線ネットワーク(Wi-Fi)環境を確認ください	";
+"AVCaptureAccessDisable"="カメラの利用が許可されていないため、アプリケーションを利用できません。\n\nプライバシー設定からカメラへのアクセスを許可してください。";
+"PhotoAndAVCaptureAccessDisable"="カメラの利用が許可されていないため、アプリケーションを利用できません。\nプライバシー設定からカメラへのアクセスを許可してください。\n\n------------------------------\n\n写真の利用が許可されていないため、アプリケーションを利用できません。\nプライバシー設定から写真へのアクセスを許可してください。";
+// !!!利用規約の内容を更新し、既に同意済みのユーザに対してもう一度利用規約を表示したい場合、FTLAgreementViewControllerクラスに定義しているFTL_POLICY_VERSIONの値を更新してください。!!!
+"PrivacyPolicyMessage"="このアプリケーション・プライバシーポリシー（以下、「本プライバシーポリシー」といいます。）は、大日本印刷株式会社（以下、「当社」といいます。）が提供するスマートフォン用写真画像Wi-Fi転送アプリケーションParty Print（以下、「本アプリケーション」といいます。）における利用者情報の取扱いを定めるものです。\n\n\n第１条（定義）\n１．「利用者」とは、本アプリケーション及び本アプリケーションがインストールされているスマートフォンを利用する全ての者をいいます。\n２．「PartyPrintシステム」とは、スマートフォンから転送された写真画像をプリントするシステムであり、当社が提供する専用ソフトウェアがインストールされたパソコン、Wi-Fiルータ及び当社製品のプリンターから構成されるものをいいます。\n３．「受付端末」とはPartyPrintシステムのうち、当社が提供する専用ソフトウェアがインストールされたパソコンをいいます。\n４．「運営者」とは、PartyPrintシステムを導入し、運営する者をいいます。\n\n第２条（取得される情報の項目、利用目的、取得方法、外部送信、第三者提供）\n１．本アプリケーションは、利用者が本アプリケーションの操作によって指定したスマートフォン内の写真画像を取得し、Wi-Fi設定により指定したネットワークに接続された受付端末に、Wi-Fi経由で転送する目的で利用します。\n２．本アプリケーションには情報収集モジュールの組み込みはありません。\n３．受付端末に転送された写真画像の取扱いについては、運営者にご確認ください。\n\n第３条（同意）\n本アプリケーションは、本プライバシーポリシーをご確認いただき、内容をご理解したうえでご利用ください。\n本アプリケーション初回起動時に、本プライバシーポリシーについて同意を取得します。\nご同意いただけない場合は、本アプリケーションをご利用できません。\n尚、本プライバシーポリシーは本アプリケーションの「ヘルプ」メニューからも確認することができます。\n\n第４条（サービスの終了と情報の取扱い）\n本アプリケーションは、ご利用者が本アプリケーションの削除（アンインストール）された場合には、ご利用を終了されたものとします。\n\n第５条（個人情報保護方針（プライバシーポリシー）等へのリンク）\n当社の個人情報保護方針（プライバシーポリシー）は、以下のURLよりご確認ください。\nhttp://www.dnp.co.jp/about/privacy.html\n\n第６条（問い合わせ窓口）\n本アプリケーションにおける利用者情報の取扱いに関するお問い合わせ、ご相談は以下の窓口でお受けいたします。\n■窓口名称：大日本印刷株式会社　イメージングコミュニケーション事業部\nhttps://www.dnp.co.jp/CGI/inquiry/form.cgi?mode=form\n\n第７条（変更）\n本プライバシーポリシーは改定することがあります。利用目的、第三者提供など、重要な変更がある場合には、あらためて同意を取得します。\n\n\n2015年4月1日制定";
+"PrivacyPolicyDescription"="本アプリケーションのご利用には、プライバシーポリシーに同意していただく必要があります。\n同意いただける場合は、チェックボックスにチェックをした上で「進む」ボタンを押してください同意いただけない場合は、ホームボタンを押し、アプリを閉じてください。";
+"PrivacyPolicyAgreeMessage"="上記のプライバシーポリシーに同意します";
+"MaxImageSizeWarning" = "%d MB以上の画像は、本アプリでは送信できません。別の画像を選択してください。";
+
+
+"CannotDownloadPhotoTitle" = "写真をダウンロードできません";
+"CannotDownloadPhotoMessage" = "iCloudフォトライブラリからこの写真をダウンロードしているときにエラーが起きました。後でやり直してください。";
+

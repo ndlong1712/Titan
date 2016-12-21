@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  PartyPrint
+
+  Created by TrongNK on 10/22/16.
+  Copyright © 2016 DNP. All rights reserved.
+*/
+"NOTCONFIGURED"="(Ninguna)";
+"FotolusioSystemConnection"="Destino:%@";
+"SendImages"="Enviar";
+"MenuTakePhoto"="Tomar fotografía";
+"MenuSelectAlbum"="Seleccionar existente";
+"MenuShowHelp"="Ayude";
+"AGREE"="ACEPTO";
+"NotAgree"="NO ACEPTO";
+"YES"="SÍ";
+"NO"="NO";
+"OK"="OK";
+"DONE"="Efectuado";
+"CANCEL"="Cancelar";
+"Menu"="Atrás";
+"SelectedImageExists"="Seleccionado: %d";
+"RETRY"="Intentar de nuevo ";
+"VERSION"="Ver. %@";
+"Continue"="Continua";
+"AgreementViewTitle"="Términos de servicio";
+"AppRecoverMessage"="Por favor esperar…";
+
+//information
+"Information" = "Información";
+"OpenSource" = "Fuente abierta";
+
+// Format
+"SendingPeriodDateFormat"="yyyy/M/d";
+"SendingPeriodTimeFormat"="H:mm";
+
+"Settings" = "Ajustes";
+
+// Messages
+
+
+"MaxImageSelectWarning"="Puede seleccionar hasta %d imágenes. Antes de transferir más imágenes, transfiera las imágenes seleccionadas.";
+"ImageCreationDateUnknown"="No puede imprimirse la imagen. \nNo puede obtenerse la información de fecha de la imagen.";
+"ImageSendingPeriodError"="No puede imprimirse la imagen. Vuelva a seleccionar la imagen tomada de %@ a %@.";
+"Uploading"="\n\n\n\nTransferencia de imágen(es)...";
+"PhotolusioDeviceNotReachable"="El destino Wi-Fi no ha sido configurado en Parámetros. \nConfigure los parámetros de la red Wi-Fi especificada.";
+"ConnectionError"="La conexión entre el servidor y el dispositivo no es estable. Vuelva a intentar. Si el problema aparece a menudo, desactive la configuración de Wi-Fi y vuelva a configurarla. (Código de error:%04d)";
+"ImageSavedError"="No puede archivarse la imagen. (Código de error: %04d)";
+"ImageSendDone"="Gracias.\n\nSu fotografía ha sido enviada al servidor. \n\nNo puede entregar otra fotografía.";
+"LessMemoryWarning"="Su dispositivo se ha quedado sin memoria. Por favor, cierre las aplicaciones abiertas y vuelva a intentarlo.";
+
+"PhotoAccessDisable"="Esta aplicación necesita acceso a sus fotos.\n\nIr a  Ajustes > Confidencialidad > Fotos > Permitir el acceso a Party Print.";
+
+"NetworkErrorMessage"="La aplicación no se puede conectar al servidor. La aplicación debe estar conectada a Party Print inalámbrico para enviar las imágenes al servidor.";
+"AVCaptureAccessDisable"="Esta aplicación desea acceder a la cámara.\n\nIr a  Ajustes > Confidencialidad > Cámara > Permitir el acceso a Party Print.";
+"PhotoAndAVCaptureAccessDisable"="Esta aplicación desea acceder a la cámara.\nIr a  Ajustes > Confidencialidad > Cámara > Permitir el acceso a Party Print.\n\n------------------------------\n\nEsta aplicación necesita acceso a sus fotos.\nIr a  Ajustes > Confidencialidad > Fotos > Permitir el acceso a Party Print.";
+"PrivacyPolicyMessage"="Durante el funcionamiento, pueden ocurrir daños/pérdidas de datos inesperados.\n\nPuesto que no podemos responsabilizarnos por dichos daños/pérdidas, antes de utilizar el sistema, le recomendamos guardar sus datos en una copia de seguridad.\n\nLa ley sobre el derecho de autor prohíbe la duplicación de fotografías protegidas por derecho de autor, sin la autorización del fotógrafo. Es su responsabilidad el garantizar que su uso del sistema se efectúe de manera legal.\n\n09/01/2012";
+"PrivacyPolicyDescription"="Gracias por leer los términos de uso y de confidencialidad con cuisado. En caso de que esté de acuerdo, gracias por dar el paso y seguir. Si no era el caso, por favor pulsar el botón de vuelta en su dispositivo, para cerrar esa misma aplicación.";
+"PrivacyPolicyAgreeMessage"="Estoy de acuerdo con los términos y polizas de confidencialidad previos.";
+"MaxImageSizeWarning" = "La aplicación no puede imprimir una imagen mayor que %d MB. Por favor seleccionar otra imagen.";
+
+"CannotDownloadPhotoTitle" = "Imposible descargar la foto";
+"CannotDownloadPhotoMessage" = "Se ha producido un error al descargar esta foto de la fototeca de iCloud.\nInténtalo de nuevo más tarde.";
